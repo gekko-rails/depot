@@ -11,3 +11,10 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+
+pussy: 
+  title: Пухлая писька (почему-то title в fixture должен отличаться от генерируемого в Product.new набора значений)
+  description: сунуть хуй в письку готов каждый
+  image_url: pussy.png
+  price: 45.5
