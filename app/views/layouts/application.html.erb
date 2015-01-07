@@ -8,7 +8,28 @@
 </head>
 <body class='<%= controller.controller_name %>'>
 
-<%= yield %>
+<div id="banner">
+	<%= @page_title || "Pragmatic Bookshelf" %>
+</div>
+
+<div id="columns">
+	<div id="side">
+		<div id="cart">
+	        <%= render @cart %>
+		</div>
+
+		<ul>
+			<li><a href="/">Home</a></li>
+			<li><a href="/faq">Questions</a></li>
+			<li><a href="/news">News</a></li>
+			<li><a href="/contact">Contact</a></li>
+		</ul>
+	</div>
+
+	<div id="main">
+		<%= yield %>
+	</div>
+</div>
 
 </body>
 </html>
