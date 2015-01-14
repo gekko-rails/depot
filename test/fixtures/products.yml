@@ -1,20 +1,20 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+    title: MyString
+    description: MyText
+    image_url: MyString
+    price: 9.99
 
 two:
-  title: MyString
-  description: MyText
-  image_url: MyString
-  price: 9.99
+    title: MyString
+    description: MyText
+    image_url: MyString
+    price: 9.99
 
-
+# почему-то title в fixture должен отличаться от генерируемого в Product.new набора значений
 pussy: 
-  title: Пухлая писька (почему-то title в fixture должен отличаться от генерируемого в Product.new набора значений)
-  description: сунуть хуй в письку готов каждый
-  image_url: pussy.png
-  price: 45.5
+    title: Пухлая писька 2
+    description: сунуть хуй в письку готов каждый
+    image_url: pussy.png
+    price: 45.5

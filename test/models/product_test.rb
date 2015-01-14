@@ -31,8 +31,9 @@ class ProductTest < ActiveSupport::TestCase
 	end
 
 
+	# почему-то title в fixture (test/fixtures/products.yml) должен отличаться от генерируемого тестами товара
 	def new_product(image_url)
-		Product.new(title: "Пухлая писька", description: "очень мокрая и очень пухлая", price: 1, image_url: image_url)
+		Product.new(title: "Пухлая писька 1", description: "очень мокрая и очень пухлая", price: 1, image_url: image_url)
 	end
 
 	test "image url" do
